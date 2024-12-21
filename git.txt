@@ -1,0 +1,42 @@
+git config --global user.name "Erick"               criando nome
+git config --global user.email cdzbr46211@gmail.com criando email
+cd caminho para acessar o caminho que iremos trabalhar
+C:\Users\cdzbr\OneDrive\Área de Trabalho\Aula git>git clone https://github.com/Viper4621/Santander-Adatech.git caso externo que desejamos puxar do GitHub
+git init   criar uma pasta .git para transformar ela em repositório
+
+arquivo unmodified = já foi mapeado já passou por stage e além de ter sido dado commit todas modificações já foram salvas
+git status = mostra qual branch estamos e se esta atualizado ou não com nosso arquivo puxado
+git add = após salvar alterações podemos dar git add nome do arquivo para deixar em stage podemos dar git add começar nome do arquivo e dar tab para autocompletar
+git diff = mostra arquivos que foram modificados
+git diff --staged = mostra alterações do arquivo em staged e oq foi modificado 
+git commit -m "oq foi feito"   faz um snapshot de como arquivo esta nesse momento
+git log = puxa históricos dos últimos commits feitos e gera um hash de cada com nome e email do autor
+no terminal usando tecla q = sai do gitlog 
+git restore podemos usar interface de stages e dar voltar la para discard changes ou usar comando
+git restore --staged = quando queremos retornar nosso arquivo de volta para área de modificação o restore volta ao anterior descartando todas mudanças
+no --staged voltamos com as mudanças feitas o qual podemos alterar algo do arquivo
+para descartar todas mudanças e retornar ao original
+precisamos dar:
+
+git restore --staged arquivo e depois git restore arquivo = assim fazemos arquivo voltar ao original sem nenhuma modificação
+
+repositórios remotos:
+
+git push: envia para diretório todas alterações que foram realizadas
+git pull: puxa de um repositório remoto e atualiza informações com alterações feitas
+git fecth: verificar antes oq esta para vir no código faz solicitação para puxar e comparar 
+
+git fecth depois git diff para ver tudo que vamos puxar e depois git push para enviar
+
+git branch = ramificar código para desenvolver partes diferentes em paralelo
+
+git branch testing = cria uma nova branch chamada teste
+git log --oneline --decorate = mostra em qual branch estamos
+git checkout nome da brach = para irmos para branch que desejamos
+
+.gitgnore = serve para remover ou ignorar alguns arquivos
+
+teste
+
+
+
