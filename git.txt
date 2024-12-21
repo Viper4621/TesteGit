@@ -33,6 +33,7 @@ git branch = ramificar código para desenvolver partes diferentes em paralelo
 git branch testing = cria uma nova branch chamada teste
 git log --oneline --decorate = mostra em qual branch estamos
 git checkout nome da brach = para irmos para branch que desejamos
+git merge nome da branch = para trazer arquivos de outras branchs
 
 .gitgnore = serve para remover ou ignorar alguns arquivos
 
